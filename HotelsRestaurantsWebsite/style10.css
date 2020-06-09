@@ -1,0 +1,94 @@
+p
+{
+ text-align:center;
+ font-size:20px;
+ color:white;
+ cursor:none;
+}
+body
+{
+background:url(h0.jpg) center fixed;
+}
+h1
+{
+ text-align:center;
+ color:black;
+ font-style:"Times New Roman";
+ cursor:none;
+ font-size:40px;
+}
+h
+{
+text-align:center;
+font-size:20px;
+font-style:"Ariel";
+color:white;
+}
+a:link
+{
+text-decoration:none;
+
+}
+a:visited
+{
+text-decoration:none;
+color:white;
+}
+a:hover
+{
+text-decoration:underline;
+color:grey;
+}
+
+div.gallery
+{
+    margin:90px;
+    border:2px solid black;
+    float:left;
+    width:480px;
+    height:430px;
+    background-color:grey;
+}
+div.gallery img 
+{
+    width:480px;
+    height:300px;
+}
+
+div.des
+{
+    padding:5px;
+    text-align:center;
+    color:white;
+    background-color:grey;
+    cursor:none;
+font-size:19px;
+    
+}
+.button
+{
+ background-color:black;
+ padding:15px 20px;
+ text-align:center;
+ font-size:18px;
+ cursor:pointer;
+ float:left;
+ width:440px;
+ display: inline-block; 
+}
+.button1
+{
+ background-color: black;
+ padding:7px 10px;
+ text-align:center;
+ font-size:16px;
+ border-radius:50%;
+ color:white;
+ border:2px black;
+ cursor:pointer;
+ float:right;
+ width:50px;
+ display: inline-block; 
+}
+
+

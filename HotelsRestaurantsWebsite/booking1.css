@@ -1,0 +1,118 @@
+body
+{
+background:url(ss1.jpg) no-repeat;
+text-align:center;
+}
+.button1
+{
+ background-color: black;
+ padding:7px 10px;
+ text-align:center;
+ font-size:16px;
+ border-radius:20%;
+ color:white;
+ border:2px black;
+ cursor:pointer;
+ float:right;
+ width:50px;
+ display: inline-block; 
+}
+
+h1
+{
+font-size:"Arial";
+text-align:left;
+height:px;
+}
+h2
+{
+background-color:;
+padding:5px;
+}
+
+h
+{
+font-size:40px;
+
+background-color:white;
+}
+h3
+{
+text-align:center;
+}
+.form-group
+{
+margin-left:400px;
+margin-right:450px;
+
+background-color:skyblue;
+border-radius:5%;
+opacity:.8;
+height:1020px;
+}
+input[type=text]
+{
+width:299px;
+padding:10px 20px;
+text-align:left;
+border:2px solid green;
+}
+
+input[type=date]
+{
+width:299px;
+padding:10px 20px;
+border:2px solid green;
+}
+
+input[type=text1]
+{
+width:168px;
+height:40px;
+border:1px solid black;
+}
+#s
+{
+padding:10px ;
+border-radius:50%;
+width:100px;
+}
+
+select[name=dropdown]
+{
+width:169.5px;
+height:40px;
+border:none;
+border:2px solid green;
+background-color:none;
+}
+
+select:required:invalid
+{
+color:#999;
+}
+option[value=””][disabled]
+{
+display: none;
+}
+option 
+{
+color:#000;
+}
+textarea
+{
+background-color:solid white;
+border:solid green;
+height:80px;
+}
+a:visited
+{
+text-decoration:none;
+color:white;
+
+}
+h
+{
+color:white;
+font-size:20px;
+}

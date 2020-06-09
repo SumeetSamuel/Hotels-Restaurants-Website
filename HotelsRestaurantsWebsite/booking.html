@@ -1,0 +1,89 @@
+<!Doctype html>
+<html>
+<head>
+<h1><u>Book Your Ideal Hotel</u><a href="ShansHotels-Restaurants.html" class="button1">Back</a></h1><hr>
+<script>
+ function validate()
+ {
+if( document.getElementById("1").value=="" )
+         {
+          alert( "Please provide your name!" );
+          document.getElementById("1").focus() ;
+          return false; }
+        x=document.getElementById("2").value
+         atpos = x.indexOf("@");
+         dotpos = x.indexOf(".");
+         dotposLast = x.lastIndexOf(".");
+
+if (x==""||atpos<1 || dotpos<=atpos+2 || dotposLast+2>=x.length) 
+{ alert( "Please provide Correct Email ID!" );
+    document.getElementById("2").focus() ;
+     return false;
+         }
+
+     a=document.getElementById("3").value 
+ if(a == "" || a.length != 10 || isNaN(a)  )
+         {
+alert( "Please provide valid phone number" );
+ document.getElementById("3").focus() ;
+ return false;  }
+}
+</script>
+</head>
+<body >
+<link rel="stylesheet" href="booking1.css">
+
+<form action="submit.html" onsubmit="return(validate())"method="POST/GET"> 
+<div class="form-group">
+<h2 class="heading"><u>Booking and Contact</u></h2>
+<div class="grid">
+<input type="text" name="t1" id="1" placeholder="Name"  maxlength="20" required><br>
+<input type="text" name="t1" id="2" placeholder="Email"  maxlength="40" required><br>
+<input type="text" name="t1" id="3" placeholder="Phone Number" required><br>
+<input type="text" name="t1" placeholder="Street"required><br>
+<input type="text" name="t1" placeholder="City" required><br>
+<input type="text" name="t1" placeholder="Postal Code" required><br>
+<input type="text" name="t1" placeholder="Country" required><br>
+<h2 class="heading"><u>Details</u></h2>
+<div class="grid">
+<h3><u>Check In </u>:-</h3>
+<input type="date" name="t2"required><br>
+<h3><u>Check Out </u>:-</h3>
+<input type="date" name="t2" required><br>
+<h3><u>Person</u>:-</h3>
+<select name="dropdown" required>
+<option value=""disabled selected>Adult</option>      <!--selected word is by default java will be there-->
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+</select>
+<select name="dropdown" required>
+<option value=""disabled selected>Child</option>      <!--selected word is by default java will be there-->
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+</select><br>
+<h3><u>Room & Bed</u>:-</h3>
+<select name="dropdown" required>
+<option value=""disabled selected>Room</option>      <!--selected word is by default java will be there-->
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+</select>
+<select name="dropdown" required>
+<option value=""disabled selected>Bedding</option>      <!--selected word is by default java will be there-->
+<option value="1">Single Bed</option>
+<option value="2">Double Bed</option>
+</select>
+<p class="info-text"><b>Please describe your needs e.g.Extra beds,children's cots</b></p><br>
+<textarea rows="5" cols="50" name=description" placeholder="Comment"></textarea><br>
+<input type="submit" id="s" >
+<input type="reset" id="s1" name="reset" value="reset">
+<a target="blank" id="s1" href="tourism3.html"><p>feedback</p></a>
+</div>
+</div>
+</form>
+</body>
+</html>
